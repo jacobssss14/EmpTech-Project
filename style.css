@@ -1,6 +1,51 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:3333PST
-Version 0.0.2
+Version 0.0.3
 Created by Olympus
 */
+
+@font-face {
+    font-family: ProductSans;
+    src:url(Product-Sans-Regular.ttf);
+
+}
+body {
+  background-color: #242424;
+  font-size: 48px;
+  font-family: ProductSans;
+ }
+
+ p {
+   text-indent: 1px;
+ }
+
+header {
+  background-color: gray;
+  box-shadow: 0px 5px 4px white;
+  float: top;
+  text-align: center;
+  color: white;
+  font-family: ProductSans;
+}
+
+
+#WelcomeDiv {
+   background-color: #FFFFFF;
+   box-shadow: 0px 10px 5px white
+   width: auto;
+   height: auto;
+ }
+
+ #ButtonDiv {
+   background-color: #242424;
+   padding: 5px;
+   width: auto;
+   height: auto;
+
+ }
+
+ button {
+   background-color: #FFFFFF;
+   color: #000000;
+ }
