@@ -1,6 +1,6 @@
 /*
 Empowerment Technologies Project
-Started Tues Sep 18 12:3333PST
+Started Tues Sep 18 12:33PST
 Version 0.0.3
 Created by Olympus
 */
@@ -10,42 +10,81 @@ Created by Olympus
     src:url(Product-Sans-Regular.ttf);
 
 }
+
+@font-face {
+  font-family: ProductSansItal;
+  src:url(Product-Sans-Italic.ttf);
+}
+
+@font-face {
+    font-family: ProductSansBold;
+    src: url(Product-Sans-Bold);
+  }
+
+/*
+Defines all custom fonts used
+*/
+
 body {
-  background-color: #242424;
+  background-color: #FFFFFF;
   font-size: 48px;
-  font-family: ProductSans;
+  font-family: sans-serif;
  }
+
 
  p {
    text-indent: 1px;
  }
 
-header {
-  background-color: gray;
-  box-shadow: 0px 5px 4px white;
-  float: top;
-  text-align: center;
-  color: white;
-  font-family: ProductSans;
+
+#nav1 {
+  position: sticky;
+  top: 0;
+  bottom: auto;
+  background: #011A2F;
+  width: auto;
+  height: 50px;
 }
 
+#header1 {
+  background: #31E4F4;
+  width: auto;
+  height: 600px;
+}
 
-#WelcomeDiv {
-   background-color: #FFFFFF;
-   box-shadow: 0px 10px 5px white
-   width: auto;
-   height: auto;
- }
+#nav2 {
+  background: #F0F0F0;
+  width: auto;
+  height: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
- #ButtonDiv {
-   background-color: #242424;
-   padding: 5px;
-   width: auto;
-   height: auto;
+div.body {
+  width: auto;
+  height: 900px
+}
 
- }
+nav.sidestory {
+  background: gray; /* must remove; for demostation only */
+  height: 450px;
+  width: 30%;
+  float: right;
 
- button {
-   background-color: #FFFFFF;
-   color: #000000;
- }
+}
+
+div.article {
+  background: black; /* must remove; for demostation only */
+  height: 450px;
+  width: 70%;
+  float: left;
+
+}
+
+#footer {
+  background: #F0F0F0;
+  height: 400px;
+  width: auto;
+}
