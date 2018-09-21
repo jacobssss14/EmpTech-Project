@@ -1,7 +1,7 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:33PST
-Version 0.4.1
+Version 0.4.3
 Created by Olympus
 */
 
@@ -39,8 +39,6 @@ body {
 
 #nav1 {
   position: sticky;
-  top: 0;
-  bottom: auto;
   background: #011A2F;
   width: auto;
   height: 50px;
@@ -72,7 +70,7 @@ li a.headlink {
   padding: 14px 14px;
 }
 
-#header1 {
+div.header1 {
   background: #31E4F4;
   width: auto;
   height: 600px;
@@ -81,9 +79,19 @@ li a.headlink {
 #div2 {
   background: lime;
   width: 30%;
-  height: 300px;
-  float: left;
+  height: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
+#div3 {
+  background: red;
+  width: 40%;
+  height: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 #nav2 {
