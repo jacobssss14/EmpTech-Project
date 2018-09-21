@@ -1,7 +1,7 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:33PST
-Version 0.4.0
+Version 0.4.1
 Created by Olympus
 */
 
@@ -76,6 +76,15 @@ li a.headlink {
   background: #31E4F4;
   width: auto;
   height: 600px;
+}
+
+#div2 {
+  background: lime;
+  width: 30%;
+  height: 300px;
+  margin-left: 20%;
+  float: left;
+
 }
 
 #nav2 {
