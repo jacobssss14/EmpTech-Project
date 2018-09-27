@@ -1,7 +1,7 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:33PST
-Version 1.0.2-28092018
+Version 1.0.3-28092018
 Created by:
 Jacob Payag
 Dianne Rei Tiongco
@@ -35,6 +35,7 @@ body {
  }
 
 ul.headinglinks {
+  max-width: auto;
   list-style-type: none;
   height: inherit;
   margin: 0;
@@ -69,6 +70,7 @@ li a.headlink:hover {
 }
 
 div.header1 {
+  max-width: auto;
   position: relative;
   background: #31E4F4;
   width: auto;
@@ -76,6 +78,7 @@ div.header1 {
 }
 
 div.div2 {
+  max-width: auto;
   width: 40%;
   height: 50%;
   position: relative;
@@ -84,6 +87,7 @@ div.div2 {
 }
 
 #learncenter {
+  max-width: auto;
   position: relative;
   top: 5%;
   color: white;
@@ -93,12 +97,14 @@ div.div2 {
 }
 
 #logo {
+  max-width: inherit;
   position: absolute;
   top: 5%;
   left: 35%;
 }
 
 .line {
+  max-width: auto;
   font-size: 36px;
   color: white;
   font-family: ProductSans;
