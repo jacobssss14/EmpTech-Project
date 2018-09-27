@@ -1,7 +1,7 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:33PST
-Version 0.6.2
+Version 0.7.0
 Created by Olympus
 */
 
@@ -231,6 +231,14 @@ div.article {
   bottom: 50%;
 }
 
+#new {
+  line-height: 50px;
+  font-size: 25px;
+  text-align: left;
+  list-style-image: url(yellow-bullet.png);
+
+}
+
 #news {
   top: 50%;
 
@@ -265,7 +273,6 @@ button.readmore {
 
 div.foot {
   position: relative;
-  background-color: red;/* for demostration */
   width: 25%;
   height: 340px;
   float: left;
@@ -277,8 +284,24 @@ div.foot {
 #call {
   text-align: left;
   position: absolute;
-  background-color: blue;
   width: auto;
   height: 60px;
   top: 340px;
+}
+
+#textinput {
+  height: 25px;
+  border: 3px solid white;
+  width: auto;
+}
+
+#subscribe {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: ProductSans;
+  background-color: #2A56A5;
+  border: 0px solid white;
 }
