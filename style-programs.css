@@ -61,17 +61,17 @@ li a.headlink {
 }
 
 li a.headlink:hover {
-  background-color: #31E4F4;
+  background-color: #D4F431;
 }
 
 #activenav {
-  background-color: #31E4F4;
+  background-color: #D4F431;
 }
 
 div.header1 {
   max-width: auto;
   position: relative;
-  background: #31E4F4;
+  background: #D4F431;
   width: auto;
   height: 600px;
 }
