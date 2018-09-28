@@ -74,4 +74,7 @@ div.header1 {
   background: #6CEB0F;
   width: auto;
   height: 600px;
+  text-align: center;
+  color: white;
+  font-family: ProductSans;
 }
