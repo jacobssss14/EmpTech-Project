@@ -93,3 +93,16 @@ div.header1 {
   font-family: ProductSans;
   color: white;
 }
+
+#softwarepartners {
+  display: inline-block;
+  position: absolute;
+  top: 550px;
+  right: auto;
+  width: 100%;
+}
+
+.prtlogo {
+  float: left;
+  margin-left: 16%;
+}
