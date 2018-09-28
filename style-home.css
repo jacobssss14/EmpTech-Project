@@ -1,7 +1,7 @@
 /*
 Empowerment Technologies Project
 Started Tues Sep 18 12:33PST
-Version 1.0.3-28092018
+Version 1.1.0
 Created by:
 Jacob Payag
 Dianne Rei Tiongco
@@ -113,14 +113,14 @@ div.div2 {
 
 #line1 {
   position: absolute;
-  top: 28%;
+  top: 30%;
   width: 40%;
   height: auto;
 }
 
 #line2 {
   position: absolute;
-  top: 35%;
+  top: 37%;
   width: 40%;
   height: auto;
 }
@@ -143,7 +143,7 @@ div.div3 {
   position: absolute;
   width: 40%;
   height: 50%;
-  top: 55%;
+  top: 50%;
 }
 
 button.mainb{
