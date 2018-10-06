@@ -1,0 +1,77 @@
+/*
+Empowerment Technologies Project
+Started Tues Sep 18 12:33PST
+Version 1.1.2
+Created by:
+Jacob Payag
+Dianne Rei Tiongco
+Cherie Rose Pelagio
+*/
+
+@font-face {
+    font-family: ProductSans;
+    src:url(Product-Sans-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: ProductSansItal;
+  src:url(Product-Sans-Italic.ttf);
+}
+
+@font-face {
+    font-family: ProductSansBold;
+    src: url(Product-Sans-Bold);
+  }
+
+/*
+Defines all custom fonts used
+*/
+
+body {
+  font-size: 48px;
+  font-family: sans-serif;
+ }
+
+ul.headinglinks {
+  max-width: auto;
+  list-style-type: none;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #011A2F;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+li.headers {
+  float: left;
+}
+
+li a.headlink {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: ProductSans;
+  font-size: 24px;
+  color: white;
+  padding: 14px 14px;
+}
+
+li a.headlink:hover {
+  background-color: #D4F431;
+}
+
+#activenav {
+  background-color: #D4F431;
+}
+
+div.header1 {
+  max-width: auto;
+  position: relative;
+  background: #D4F431;
+  width: auto;
+  height: 600px;
+}
